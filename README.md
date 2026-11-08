@@ -113,6 +113,8 @@ _A collection of hooks from Uniswap and community developers._
 - [Attestation Hook](https://github.com/CliqueOfficial/attestation-hooks): A hook that allows for the querying of attestations from various attestation protocols. Check returned responses against preset criteria in any of the hook functions.
 - [Constant-sum Swap](https://github.com/saucepoint/v4-constant-sum): A hook that implements constant-sum swaps (x + y = k), allowing for an exact 1:1 swap everytime.
 - [Violet Hooks](https://github.com/violetprotocol/uniswap-v4-violet-hooks): A hook that uses VioletID registry to perform identity checks. This can be used for permissioned pools for compliance.
+- [Spraay BatchDistributeHook](https://github.com/plagtech/spraay-uniswap-v4-hook): Push-model batch token and ETH distribution via Uniswap V4 hooks. Distributes to up to 200 recipients in a single transaction. Listed in the official Uniswap hooklist. Deployed on Base at `0x2aB86A34661C0629C62A0f1980c96D41Ea471010`.
+- [SwapAndSpray](https://github.com/plagtech/spraay-swap-and-spray): An `afterSwap` return-delta hook that pays a swap's output to up to 200 recipients in one transaction via Spraay, on pools that attach it. Deployed on Base at `0xD5a632a1F24231847f3C0Be6ADEcf209c1830044`.
 
 ### From Hackthon
 
